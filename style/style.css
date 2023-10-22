@@ -1,0 +1,121 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital@1&family=Poppins:ital,wght@1,200;1,400;1,600&family=Satisfy&display=swap');
+:root {
+    --main-color:#c980b9;
+    --black-color:#000000;
+    --border:0.1 rem solid rgba(255, 255, 255, 0.4);
+}
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+
+/* base html code */
+html{
+    font-size: 56.5%;
+    overflow-x:hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior:smooth;
+}
+h3{
+    font-size: 6rem;
+}
+h2{
+    font-size: 4rem;
+    color:rgb(151, 89, 170);
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+body{
+    background-color: bisque;
+    height: 200vh;
+}
+section{
+    text-align:center;
+    text-decoration:wavy;
+    
+}
+.title{
+    font-size: 3rem;
+}
+
+
+
+/* header start */
+.header .logo img{
+    height:15rem;}
+
+.header {
+    background-color: rgb(121, 98, 126);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 2rem 7%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px -2px rgb(108, 88, 65) ;
+}    
+
+.header .navbar a{
+    margin: 0 1 rem;
+    font-size: 2 rem;
+    color: rgb(0, 0, 0);
+    border-bottom: 0.1 rem solid transparent;
+    
+}
+
+.header .navbar{
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 2rem;
+    background-color:transparent;
+    
+}
+/* header end */
+
+/* about start */
+    .about .row {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+        
+}
+    .about .row .image{
+        flex: 1 1 33rem;
+        
+    }
+ 
+    .about .row img{
+        width: 100%;
+        
+       
+    }
+    .about .row .content{
+        flex: 1 1 45rem;
+        
+    }
+    .about .row .content h3{
+        font-size: 6rem;
+        color: #000000;
+        
+        
+    }
+    .about .row .content p {
+        font-size: 3.6rem;
+        color: rgb(151, 89, 170);
+        padding: 1rem 0;
+ 
+    }
+    
+/* about end */

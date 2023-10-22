@@ -1,4 +1,4 @@
 # IDMX 225 Midterm
 Empty template for Midterm Project
 
-Gizem Arslan!
+This page was created for my Midterm.
